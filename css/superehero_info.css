@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* navbar */
+.navbar{
+    background-color: rgba(109, 129, 231, 0.289);
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 1%;
+}
+.super-hero-hunter-logo{
+    margin-left: 1%;
+}
+.nav-search-button{
+    margin-right: 1%;
+}
+.super-hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

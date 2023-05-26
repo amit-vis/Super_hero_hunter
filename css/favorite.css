@@ -1,0 +1,15 @@
+/* navbar */
+.navbar{
+    background-color: rgba(109, 129, 231, 0.289);
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 1%;
+}
+.super-hero-hunter-logo{
+    margin-left: 1%;
+}
+.nav-search-button{
+    margin-right: 1%;
+}
