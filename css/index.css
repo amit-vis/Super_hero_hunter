@@ -36,12 +36,13 @@ div>img{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: red;
+    background-color: white;
     padding: 1rem;
     /* max-height: 100%; */
     transform: translateY(101%);
     opacity: 0;
     transition: transform 0.3s ease-in, opacity 0.3s ease-in;
+    color: black;
 
 }
 
