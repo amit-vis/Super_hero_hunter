@@ -33,16 +33,24 @@
       </nav>
 
       <section class="super-hero-container d-flex">
-        <div class="card mb-3 super-hero car" style="max-width: 700px;">
+        <div class="card mb-3 super-hero car">
             <div class="row g-0">
               <div class="col-md-4">
-                <img src="https://th.bing.com/th/id/OIP.1YM53mG10H_U25iPjop83QHaEo?pid=ImgDet&rs=1" class="img-fluid rounded-start" alt="...">
+                <img id="hero-image" src="" class="img-fluid rounded-start" alt="..." style="height: 100%;">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <h5 class="card-title" id="hero-name"></h5>
+                  <h5 id="hero-id"></h5>
+                  <h5 id="hero-comics"></h5>
+                  <h5 id="hero-story-count"> </h5>
+                  <h5 id="hero-story">
+
+                  </h5>
+                  <h5 id="hero-series">
+                    <span id="hero-series-count"></span>
+                  </h5>
+                  <p class="card-text" id="hero-description"> </p>
                 </div>
               </div>
             </div>
@@ -59,5 +67,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
       integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
       crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js"></script>
+
+      <script src="js/superhero_info.js"></script>
 </body>
 </html>

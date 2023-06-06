@@ -13,3 +13,42 @@
 .nav-search-button{
     margin-right: 1%;
 }
+
+/* card container */
+.superhero-container{
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+div>img{
+    height: 400px;
+}
+.card{
+    position: relative;
+}
+.card .card-body{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    padding: 1rem;
+    /* max-height: 100%; */
+    transform: translateY(101%);
+    opacity: 0;
+    transition: transform 0.3s ease-in, opacity 0.3s ease-in;
+    color: black;
+
+}
+
+.card:hover .card-body{
+    transform: translateY(0);
+    opacity: 1;
+}
+.container-heart{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 20px;
+    color: white;
+}
