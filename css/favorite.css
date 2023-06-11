@@ -14,7 +14,7 @@
     margin-right: 1%;
 }
 
-/* card container */
+/* SuperHero container */
 .superhero-container{
     width: 95%;
     margin-left: 2.5%;
@@ -51,4 +51,9 @@ div>img{
     top: 10px;
     font-size: 20px;
     color: white;
+}
+
+.container-heart i{
+    color: red;
+    font-size: 20px;
 }

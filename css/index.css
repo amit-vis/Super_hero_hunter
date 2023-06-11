@@ -1,37 +1,43 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /* navbar */
-.navbar{
+.navbar {
     background-color: rgba(109, 129, 231, 0.289);
 }
-.logo{
+
+.logo {
     height: 50px;
     width: 50px;
     margin-left: 1%;
 }
-.super-hero-hunter-logo{
+
+.super-hero-hunter-logo {
     margin-left: 1%;
 }
-.nav-search-button{
+
+.nav-search-button {
     margin-right: 1%;
 }
 
-/* card container */
-.superhero-container{
+/* super hero container */
+.superhero-container {
     width: 95%;
     margin-left: 2.5%;
 }
 
-div>img{
+div>img {
     height: 400px;
 }
-.card{
+
+.card {
     position: relative;
 }
-.card .card-body{
+
+.card .card-body {
     position: absolute;
     left: 0;
     right: 0;
@@ -46,14 +52,50 @@ div>img{
 
 }
 
-.card:hover .card-body{
+.card:hover .card-body {
     transform: translateY(0);
     opacity: 1;
 }
-.container-heart{
+
+.container-heart {
     position: absolute;
     right: 15px;
     top: 10px;
     font-size: 20px;
     color: white;
+}
+
+.container-heart.favorite i {
+    color: red;
+}
+
+/* loading container */
+#loading-container {
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#loading {
+    width: 200px;
+    height: 200px;
+    animation: spin 1s infinite ease-in-out;
+    background-image: url('../images/loading.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+
+@keyframes spin {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
